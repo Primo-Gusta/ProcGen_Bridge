@@ -4,7 +4,7 @@ import uvicorn
 import os
 from generator import generate_cellular_automata
 
-PORT = int(os.environ.get("PORT", 8000))
+PORT = int(os.environ.get("PORT", 10000))
 
 app = FastAPI(
     title="ProcGen-Bridge API",
