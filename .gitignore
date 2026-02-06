@@ -1,0 +1,7 @@
+
+ProcGen-Bridge-Client/.godot/
+ProcGen-Bridge-Client/android/
+venv
+api/__pycache__
+settings.json
+pyvenv.cfg

@@ -1,0 +1,68 @@
+[gd_scene load_steps=2 format=3 uid="uid://0v7s1eavkxuw"]
+
+[ext_resource type="Script" uid="uid://cjvna445d23eg" path="res://addons/procgen_bridge/dock_panel.gd" id="1_0q5m2"]
+
+[node name="DockPanel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0q5m2")
+
+[node name="MainBox" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MainLabel" type="Label" parent="MainBox"]
+layout_mode = 2
+text = "Map Configuration"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ConfigBox" type="HBoxContainer" parent="MainBox"]
+layout_mode = 2
+
+[node name="ConfigLabel" type="VBoxContainer" parent="MainBox/ConfigBox"]
+layout_mode = 2
+theme_override_constants/separation = 5
+alignment = 1
+
+[node name="Label" type="Label" parent="MainBox/ConfigBox/ConfigLabel"]
+layout_mode = 2
+text = "Width"
+
+[node name="Label2" type="Label" parent="MainBox/ConfigBox/ConfigLabel"]
+layout_mode = 2
+text = "Height"
+
+[node name="Label3" type="Label" parent="MainBox/ConfigBox/ConfigLabel"]
+layout_mode = 2
+text = "Smoothness"
+
+[node name="Label4" type="Label" parent="MainBox/ConfigBox/ConfigLabel"]
+layout_mode = 2
+text = "Seed"
+
+[node name="ConfigValues" type="VBoxContainer" parent="MainBox/ConfigBox"]
+layout_mode = 2
+
+[node name="SpinBox" type="SpinBox" parent="MainBox/ConfigBox/ConfigValues"]
+layout_mode = 2
+
+[node name="SpinBox2" type="SpinBox" parent="MainBox/ConfigBox/ConfigValues"]
+layout_mode = 2
+
+[node name="SpinBox4" type="SpinBox" parent="MainBox/ConfigBox/ConfigValues"]
+layout_mode = 2
+
+[node name="SpinBox3" type="SpinBox" parent="MainBox/ConfigBox/ConfigValues"]
+layout_mode = 2
+
+[node name="GenerateButton" type="Button" parent="MainBox"]
+layout_mode = 2
+text = "Generate"
+
+[connection signal="pressed" from="MainBox/GenerateButton" to="." method="_on_button_pressed"]
