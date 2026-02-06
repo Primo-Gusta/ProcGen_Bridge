@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://0v7s1eavkxuw"]
 
-[ext_resource type="Script" uid="uid://cjvna445d23eg" path="res://addons/procgen_bridge/dock_panel.gd" id="1_0q5m2"]
+[ext_resource type="Script" uid="uid://cjvna445d23eg" path="res://addons/gridweaver/dock_panel.gd" id="1_0q5m2"]
 
-[node name="ProcGen Bridge" type="Control"]
+[node name="GridWeaver" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0

@@ -1,0 +1,11 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1770391066
+::res://addons/::1770380333
+::res://addons/procgen_bridge/::1770391057
+dock_panel.gd::GDScript::5448683783214360582::1770390903::0::1::::<>Control<><>0<>1<><>::
+dock_panel.tscn::PackedScene::1800049483659684666::1770391057::0::1::::<><><>0<>0<><>::uid://cjvna445d23eg::::res://addons/procgen_bridge/dock_panel.gd
+main_plugin.gd::GDScript::5203632635812496691::1770380944::0::1::::<>EditorPlugin<><>0<>1<><>::
+plugin.cfg::TextFile::-1::1770382932::0::1::::<><><>0<>0<><>::
+::res://Showcase/::1770391265
+Main.tscn::PackedScene::9037680160967144170::1770391265::0::1::::<><><>0<>0<><>::uid://cm2n5vwjrl8d5::::res://Showcase/template tiles to test.png
+template tiles to test.png::CompressedTexture2D::5671689722533472912::1770380025::1770383516::1::::<><><>0<>0<>db8a39d016f2e56dd70b282ff87a2922<>res://.godot/imported/template tiles to test.png-a38bc147e09ed9386b07d0f2ab9d0cdc.ctex::
