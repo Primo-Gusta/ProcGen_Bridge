@@ -8,7 +8,7 @@ var target_layer: TileMapLayer
 @onready var smoothness: SpinBox = $MainBox/ConfigBox/ConfigValues/SpinBox3
 @onready var seed: SpinBox = $MainBox/ConfigBox/ConfigValues/SpinBox4
 
-var main_url = "https://procgen-bridge.onrender.com"
+var main_url = "https://procgen-bridge.onrender.com/generate"
 
 func _ready():
 	if not http_client:
